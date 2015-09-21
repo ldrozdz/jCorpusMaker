@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <mode>import</mode>
+    <threading>multi_threaded</threading>
+    <pool_size>8</pool_size>
+    <jdbc>
+        <url>jdbc:mysql://_host_:_port_/_db_</url>
+        <driver>com.mysql.jdbc.Driver</driver>
+        <user>_user_</user>
+        <password>_password_</password>
+    </jdbc>
+    <parse>
+        <dir>_data_dir_</dir>
+        <parser>SIMPLE_VTD_XML</parser>
+    </parse>
+</config>

@@ -15,4 +15,4 @@ target/
 .hgignore
 *.iml
 .idea/
-src/main/resources/xonfig.xml
+src/main/resources/config.xml
